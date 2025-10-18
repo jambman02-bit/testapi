@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register & Verify OTP</title>
+  <script defer src="otp.js"></script>
+</head>
+<body>
+  <h2>Register</h2>
+  <input id="email" type="email" placeholder="Enter your email" required>
+  <input id="name" type="text" placeholder="Enter your name">
+  <button id="sendOtpBtn">Send OTP</button>
+
+  <div id="otpSection" style="display:none;">
+    <input id="otp" type="text" placeholder="Enter OTP">
+    <button id="verifyOtpBtn">Verify OTP</button>
+  </div>
+
+  <p id="msg"></p>
+</body>
+</html>
